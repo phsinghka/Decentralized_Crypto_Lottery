@@ -314,6 +314,7 @@ export const LotteryProvider = ({ children }) => {
     getLastWinnerwithAmount();
     getOperatorCommission();
     setReload(0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [reload, currentAccount]);
   return (
     <LotteryContext.Provider

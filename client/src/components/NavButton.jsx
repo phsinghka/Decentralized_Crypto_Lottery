@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import { LotteryContext } from '../context/LotteryContext';
+import React from 'react';
 
 function NavButton({ title, isActive, onClick }) {
   return (
