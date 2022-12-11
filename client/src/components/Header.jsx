@@ -21,8 +21,7 @@ function Header() {
 
       <div className='flex items-center rounded-md ml-1'>
         <div className='flex flex-col md:flex-row p-4 space-x-2 justify-center ml-auto'>
-          <NavButton onClick={connectWallet} isActive title='Buy Tickets' />
-          <NavButton onClick={disconnectWallet} title='Logout' />
+          <NavButton onClick={disconnectWallet} isActive title='Logout' />
         </div>
       </div>
     </header>
